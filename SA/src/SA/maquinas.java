@@ -86,8 +86,9 @@ public class main {
 		
 		//por dia
 		case 3: for (int b = 0; b < (maquinas*Setores);b++) {
+			System.out.println("Maquina " +(b+1));
 			for(int c = 0; c < 5;c++) {
-				System.out.println("Maquina "+(b+1)+" produção " + matrix[b][c]);
+				System.out.println("Produção " + diasSemana.get(c)+ matrix[b][c]);
 				
 			}
 			
